@@ -44,10 +44,10 @@ export function Navbar() {
   }, []);
 
   const links: { path: string; label: string; icon: React.ReactNode }[] = [
-    { path: "/", label: "Home", icon: <Home className="w-4 h-4" /> },
-    { path: "/about", label: "About", icon: <User className="w-4 h-4" /> },
-    { path: "/projects", label: "Projects", icon: <Folder className="w-4 h-4" /> },
-    { path: "/tech-stack", label: "Tech Stack", icon: <Code className="w-4 h-4" /> },
+    { path: "/", label: "Studio", icon: <Home className="w-4 h-4" /> },
+    { path: "/about", label: "Designer", icon: <User className="w-4 h-4" /> },
+    { path: "/projects", label: "Showcase", icon: <Folder className="w-4 h-4" /> },
+    { path: "/tech-stack", label: "Tools", icon: <Code className="w-4 h-4" /> },
   ];
 
   return (
@@ -64,7 +64,7 @@ export function Navbar() {
           to="/" 
           className="text-xl font-medium tracking-tight transition-colors hover:text-primary"
         >
-          <span className="font-bold">Lyndon</span> Catan
+          <span className="font-bold">Lyndon's</span> Virtual Studio
         </Link>
         
         <nav className="hidden md:flex items-center space-x-1">

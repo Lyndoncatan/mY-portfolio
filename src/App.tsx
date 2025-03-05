@@ -20,6 +20,7 @@ const App = () => {
   
   useEffect(() => {
     setIsMounted(true);
+    document.title = "Lyndon's Virtual Studio";
   }, []);
 
   return (

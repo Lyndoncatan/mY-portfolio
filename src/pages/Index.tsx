@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ChevronRight, MousePointer, ArrowDown } from "lucide-react";
+import { ChevronRight, MousePointer, ArrowDown, Palette, Monitor, Code } from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
 
 export default function Index() {
@@ -66,7 +66,7 @@ export default function Index() {
               <MousePointer className="w-5 h-5 text-foreground/80" />
             </div>
             <span className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
-              UI/UX Designer
+              Virtual Design Studio
             </span>
           </div>
           
@@ -76,7 +76,7 @@ export default function Index() {
                 className="block opacity-0 animate-text-reveal" 
                 style={{ animationDelay: "0.4s", animationFillMode: "forwards" }}
               >
-                Hi, I'm Lyndon Domini Catan
+                Welcome to Lyndon's
               </span>
             </div>
             <div className="overflow-hidden mt-2">
@@ -84,7 +84,7 @@ export default function Index() {
                 className="block opacity-0 animate-text-reveal text-primary/80" 
                 style={{ animationDelay: "0.6s", animationFillMode: "forwards" }}
               >
-                Creating Interactive Experiences
+                Creative Virtual Studio
               </span>
             </div>
           </h1>
@@ -93,8 +93,7 @@ export default function Index() {
             className="text-xl md:text-2xl text-muted-foreground max-w-2xl mb-8 opacity-0 animate-fade-in" 
             style={{ animationDelay: "0.8s", animationFillMode: "forwards" }}
           >
-            I craft intuitive digital experiences through thoughtful UI/UX design, 
-            focusing on clean aesthetics and seamless interactions.
+            Explore my digital workspace where ideas come to life through immersive design experiences and interactive prototypes.
           </p>
           
           <div 
@@ -103,13 +102,13 @@ export default function Index() {
           >
             <Button asChild size="lg" className="group">
               <Link to="/projects">
-                Explore Projects
+                Tour the Studio
                 <ChevronRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg">
               <Link to="/about">
-                Learn More About Me
+                Meet the Designer
               </Link>
             </Button>
           </div>
@@ -126,7 +125,7 @@ export default function Index() {
           className="flex flex-col items-center gap-2 animate-pulse-slow"
           onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
         >
-          <span className="text-sm text-muted-foreground">Scroll Down</span>
+          <span className="text-sm text-muted-foreground">Explore Further</span>
           <ArrowDown className="h-4 w-4" />
         </Button>
       </div>
@@ -134,31 +133,34 @@ export default function Index() {
       <div className="h-screen bg-secondary flex flex-col items-center justify-center p-4">
         <div className="max-w-4xl text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-8 leading-tight">
-            Creating <span className="text-primary/80">Human-Centered</span> Digital Experiences
+            Where <span className="text-primary/80">Design</span> Meets Innovation
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-            I believe that great design goes beyond aesthetics—it solves real problems 
-            and creates meaningful connections between people and technology.
+            Step into my virtual studio space where creativity flows freely and digital experiences take shape through thoughtful design and cutting-edge technology.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: "UI Design", 
-                desc: "Creating intuitive visual interfaces with careful attention to every detail."
+                icon: <Palette className="w-8 h-8 mb-4 text-primary/80" />,
+                title: "Design Lab", 
+                desc: "Explore prototypes, wireframes, and visual design concepts in an interactive environment."
               },
               {
-                title: "UX Research", 
-                desc: "Understanding user needs and behaviors to inform meaningful design decisions."
+                icon: <Monitor className="w-8 h-8 mb-4 text-primary/80" />,
+                title: "Digital Showcase", 
+                desc: "View finished projects in simulated environments to experience the final user interface."
               },
               {
-                title: "Interaction", 
-                desc: "Crafting seamless interactions that delight users and enhance functionality."
+                icon: <Code className="w-8 h-8 mb-4 text-primary/80" />,
+                title: "Interaction Space", 
+                desc: "Test functional prototypes and experience user flows with realistic interactions."
               }
             ].map((item, i) => (
               <div 
                 key={i} 
-                className="glass p-6 rounded-xl"
+                className="glass p-6 rounded-xl flex flex-col items-center"
               >
+                {item.icon}
                 <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
                 <p className="text-muted-foreground">{item.desc}</p>
               </div>
