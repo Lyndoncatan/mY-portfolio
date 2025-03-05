@@ -66,7 +66,7 @@ export default function Index() {
               <MousePointer className="w-5 h-5 text-foreground/80" />
             </div>
             <span className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
-              Virtual Design Studio
+              Web Developer & Designer
             </span>
           </div>
           
@@ -84,7 +84,7 @@ export default function Index() {
                 className="block opacity-0 animate-text-reveal text-primary/80" 
                 style={{ animationDelay: "0.6s", animationFillMode: "forwards" }}
               >
-                Creative Virtual Studio
+                Portfolio
               </span>
             </div>
           </h1>
@@ -93,7 +93,7 @@ export default function Index() {
             className="text-xl md:text-2xl text-muted-foreground max-w-2xl mb-8 opacity-0 animate-fade-in" 
             style={{ animationDelay: "0.8s", animationFillMode: "forwards" }}
           >
-            Explore my digital workspace where ideas come to life through immersive design experiences and interactive prototypes.
+            Explore my work and projects showcasing my skills in web development, design, and creative problem-solving.
           </p>
           
           <div 
@@ -102,13 +102,13 @@ export default function Index() {
           >
             <Button asChild size="lg" className="group">
               <Link to="/projects">
-                Tour the Studio
+                View Projects
                 <ChevronRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg">
               <Link to="/about">
-                Meet the Designer
+                About Me
               </Link>
             </Button>
           </div>
@@ -125,7 +125,7 @@ export default function Index() {
           className="flex flex-col items-center gap-2 animate-pulse-slow"
           onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
         >
-          <span className="text-sm text-muted-foreground">Explore Further</span>
+          <span className="text-sm text-muted-foreground">Explore More</span>
           <ArrowDown className="h-4 w-4" />
         </Button>
       </div>
@@ -133,27 +133,27 @@ export default function Index() {
       <div className="h-screen bg-secondary flex flex-col items-center justify-center p-4">
         <div className="max-w-4xl text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-8 leading-tight">
-            Where <span className="text-primary/80">Design</span> Meets Innovation
+            Where <span className="text-primary/80">Creativity</span> Meets Technology
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Step into my virtual studio space where creativity flows freely and digital experiences take shape through thoughtful design and cutting-edge technology.
+            I build modern websites and applications that combine beautiful design with powerful functionality, creating memorable digital experiences.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
                 icon: <Palette className="w-8 h-8 mb-4 text-primary/80" />,
-                title: "Design Lab", 
-                desc: "Explore prototypes, wireframes, and visual design concepts in an interactive environment."
-              },
-              {
-                icon: <Monitor className="w-8 h-8 mb-4 text-primary/80" />,
-                title: "Digital Showcase", 
-                desc: "View finished projects in simulated environments to experience the final user interface."
+                title: "Design", 
+                desc: "Clean, intuitive designs that engage users and elevate your brand's digital presence."
               },
               {
                 icon: <Code className="w-8 h-8 mb-4 text-primary/80" />,
-                title: "Interaction Space", 
-                desc: "Test functional prototypes and experience user flows with realistic interactions."
+                title: "Development", 
+                desc: "Modern web development with the latest technologies for robust, scalable applications."
+              },
+              {
+                icon: <Monitor className="w-8 h-8 mb-4 text-primary/80" />,
+                title: "UI/UX", 
+                desc: "User-focused interfaces that create seamless, enjoyable experiences across all devices."
               }
             ].map((item, i) => (
               <div 
