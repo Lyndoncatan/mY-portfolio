@@ -64,7 +64,7 @@ export function Navbar() {
           to="/" 
           className="text-xl font-medium tracking-tight transition-colors hover:text-primary"
         >
-          <span className="font-bold">Lyndon's</span> Portfolio
+          <span className="font-bold">Lyndon  </span> Catan
         </Link>
         
         <nav className="hidden md:flex items-center space-x-1">

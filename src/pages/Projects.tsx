@@ -22,57 +22,57 @@ export default function Projects() {
   const projects: Project[] = [
     {
       id: 1,
-      title: "Redesign of Financial App",
-      category: "UI Design",
-      description: "A complete redesign of a financial management application focusing on simplifying complex data visualization and improving user navigation.",
+      title: "SneakerVerse",
+      category: "Shopping shoes",
+      description: "shopping shoes,with brands of Nike,Underarmor,Adidas",
       imagePath: "/lovable-uploads/e82a2001-bf0b-4233-9e10-64ae714a8790.png",
-      link: "#",
-      year: "2023"
+      link: "https://preview--sneakerverse-animate.lovable.app/kids",
+      year: "2025"
     },
     {
       id: 2,
-      title: "E-commerce User Experience",
-      category: "UX Research",
-      description: "In-depth UX research and redesign for an e-commerce platform, increasing conversion rates and improving overall customer satisfaction.",
+      title: "Watcher",
+      category: "ON PROGRESS",
+      description: "my own online free movies to watch",
       imagePath: "/lovable-uploads/e82a2001-bf0b-4233-9e10-64ae714a8790.png",
-      link: "#",
-      year: "2022"
+      link: "https://preview--purple-black-cinema.lovable.app/tv-shows",
+      year: "2025"
     },
     {
       id: 3,
-      title: "Healthcare Portal",
-      category: "UI/UX",
-      description: "Design of a patient-centered healthcare portal that simplifies appointment scheduling and access to medical records.",
+      title: "Rain Track",
+      category: "Weather tracker",
+      description: "it alerts you a weather index in your location",
       imagePath: "/lovable-uploads/e82a2001-bf0b-4233-9e10-64ae714a8790.png",
       link: "#",
-      year: "2022"
+      year: "2025"
     },
     {
       id: 4,
-      title: "Travel App Concept",
-      category: "UI Design",
-      description: "Conceptual design for a travel planning application with focus on visual appeal and intuitive itinerary management.",
+      title: "Loan Manager",
+      category: "ONGOING",
+      description: "loan mamanager is a system that checks the user if he accomplished his debt",
       imagePath: "/lovable-uploads/e82a2001-bf0b-4233-9e10-64ae714a8790.png",
       link: "#",
-      year: "2021"
+      year: "2025"
     },
     {
       id: 5,
-      title: "Music Streaming Redesign",
-      category: "UI/UX",
-      description: "Redesign of a music streaming service interface with improved content discovery and personalization features.",
+      title: "MY-DRIVE",
+      category: "replicate of google drive",
+      description: "ongoing project",
       imagePath: "/lovable-uploads/e82a2001-bf0b-4233-9e10-64ae714a8790.png",
       link: "#",
-      year: "2021"
+      year: "2025"
     },
     {
       id: 6,
-      title: "Productivity Tool",
-      category: "UX Research",
-      description: "User research and interface design for a productivity application focused on task management and time tracking.",
+      title: "MYSPACE",
+      category: "ONGOING",
+      description: "Replicate version of Facebook",
       imagePath: "/lovable-uploads/e82a2001-bf0b-4233-9e10-64ae714a8790.png",
       link: "#",
-      year: "2020"
+      year: "2025"
     }
   ];
   

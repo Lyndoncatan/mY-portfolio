@@ -49,7 +49,7 @@ export default function About() {
               <Mail className="w-5 h-5 text-primary" />
               <div>
                 <div className="text-sm text-muted-foreground">Email</div>
-                <div className="font-medium">lyndon@example.com</div>
+                <div className="font-medium">lyndoncatan75@gmail.com</div>
               </div>
             </div>
             
@@ -57,7 +57,7 @@ export default function About() {
               <MapPin className="w-5 h-5 text-primary" />
               <div>
                 <div className="text-sm text-muted-foreground">Location</div>
-                <div className="font-medium">New York, NY</div>
+                <div className="font-medium">Metro Manila, Marikina CIty</div>
               </div>
             </div>
             
@@ -79,13 +79,13 @@ export default function About() {
               <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-primary"></div>
               <div className="flex items-center gap-2 mb-1">
                 <Clock className="w-4 h-4 text-muted-foreground" />
-                <span className="text-sm text-muted-foreground">2020 - Present</span>
+                <span className="text-sm text-muted-foreground">2022 - Present</span>
               </div>
-              <h3 className="text-xl font-semibold">Senior UI/UX Designer</h3>
+              <h3 className="text-xl font-semibold">UI/UX Designer</h3>
               <p className="text-muted-foreground">Digital Innovation Agency</p>
               <p className="mt-2">
-                Lead designer for enterprise clients. Responsible for research, wireframing, 
-                prototyping, and design system development.
+                  Responsible for research, wireframing, 
+               prototyping, and design system development.
               </p>
             </div>
             
@@ -93,10 +93,10 @@ export default function About() {
               <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-secondary"></div>
               <div className="flex items-center gap-2 mb-1">
                 <Clock className="w-4 h-4 text-muted-foreground" />
-                <span className="text-sm text-muted-foreground">2018 - 2020</span>
+                <span className="text-sm text-muted-foreground">2022 - 2023</span>
               </div>
               <h3 className="text-xl font-semibold">UI Designer</h3>
-              <p className="text-muted-foreground">Creative Solutions Inc.</p>
+              <p className="text-muted-foreground">Creative</p>
               <p className="mt-2">
                 Designed user interfaces for web and mobile applications. Collaborated with 
                 development teams to ensure design implementation.
@@ -107,12 +107,12 @@ export default function About() {
               <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-secondary"></div>
               <div className="flex items-center gap-2 mb-1">
                 <BookOpen className="w-4 h-4 text-muted-foreground" />
-                <span className="text-sm text-muted-foreground">2014 - 2018</span>
+                <span className="text-sm text-muted-foreground">2023 - 2024</span>
               </div>
-              <h3 className="text-xl font-semibold">BFA in Graphic Design</h3>
-              <p className="text-muted-foreground">School of Visual Arts</p>
+              <h3 className="text-xl font-semibold">Iam inevitable</h3>
+              <p className="text-muted-foreground">ONGOING</p>
               <p className="mt-2">
-                Focused on digital design and interactive media. Graduated with honors.
+                HELLO WORLD 
               </p>
             </div>
           </div>

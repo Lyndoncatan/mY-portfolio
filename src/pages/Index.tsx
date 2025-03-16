@@ -66,7 +66,7 @@ export default function Index() {
               <MousePointer className="w-5 h-5 text-foreground/80" />
             </div>
             <span className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
-              Web Developer & Designer
+              UI/UX Web Design
             </span>
           </div>
           
