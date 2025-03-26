@@ -31,47 +31,47 @@ export default function Projects() {
     },
     {
       id: 2,
-      title: "Watcher",
-      category: "ON PROGRESS",
-      description: "my own online free movies to watch",
+      title: "Sonify",
+      category: "My Spotify Version",
+      description: "can play musics",
       imagePath: "/lovable-uploads/e82a2001-bf0b-4233-9e10-64ae714a8790.png",
-      link: "https://preview--purple-black-cinema.lovable.app/tv-shows",
+      link: "https://sonify-my-spotify-version.vercel.app/",
       year: "2025"
     },
     {
       id: 3,
-      title: "Rain Track",
-      category: "Weather tracker",
+      title: "Streamy",
+      category: "My Youtube Version",
       description: "it alerts you a weather index in your location",
       imagePath: "/lovable-uploads/e82a2001-bf0b-4233-9e10-64ae714a8790.png",
-      link: "#",
+      link: "https://streamy-my-youtube-version.vercel.app/",
       year: "2025"
     },
     {
       id: 4,
-      title: "Loan Manager",
-      category: "ONGOING",
-      description: "loan mamanager is a system that checks the user if he accomplished his debt",
+      title: "LHood Shop",
+      category: "My Shopping website",
+      description: "can buy and sell products",
       imagePath: "/lovable-uploads/e82a2001-bf0b-4233-9e10-64ae714a8790.png",
-      link: "#",
+      link: "https://l-hood-shop.vercel.app/",
       year: "2025"
     },
     {
       id: 5,
-      title: "MY-DRIVE",
-      category: "replicate of google drive",
-      description: "ongoing project",
+      title: "Data Tracker",
+      category: "Data",
+      description: "user can now see how much cost he is giving to his apps",
       imagePath: "/lovable-uploads/e82a2001-bf0b-4233-9e10-64ae714a8790.png",
-      link: "#",
+      link: "https://data-tracker-three.vercel.app/",
       year: "2025"
     },
     {
       id: 6,
-      title: "MYSPACE",
-      category: "ONGOING",
-      description: "Replicate version of Facebook",
+      title: "Human Jogging Simulation",
+      category: "Simulation",
+      description: "User can understand how jogging navigates",
       imagePath: "/lovable-uploads/e82a2001-bf0b-4233-9e10-64ae714a8790.png",
-      link: "#",
+      link: "https://human-locomotion-jogging-simulation.vercel.app/",
       year: "2025"
     }
   ];
